@@ -1,20 +1,26 @@
-Atom One dark
+Basic
+-------------------
 Better Comments
-Bracket Pair
-C/C++
-C/C++ clang--this need further setting
-C/C++ intellisense
+Brackets Light Pro
 Chinese
 Code Runner
 Guides
-Include Auto
+Include Autocomplete
+indent-rainbow
+output colorizer
 TODO highlight
 Todo Tree
 vscode-icons
-C/C++ GNU Global
-C/C++ Compile Run
-C/C++ Snippets
-------------
-Python
-Python for vscode
------------
+（code spell checker）
+（bracket pair colorizer 2）
+-------------------
+
+C/C++
+-----------------------
+C/C++
+C/C++ clang common adapter--this need further setting
+c/c++ compile run
+c/c++ gnu global 
+c/c++ snippets
+C/C++ intellisense
+-----------------------
