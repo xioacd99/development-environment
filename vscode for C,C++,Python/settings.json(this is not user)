@@ -64,4 +64,8 @@
         "xlocbuf": "cpp",
         "xlocmes": "cpp"
     },
+    "[python]": {
+        
+    },
+    "python.pythonPath": "C:\\Users\\Administrator.DESKTOP-N61UK1Q\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe",
 }

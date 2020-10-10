@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Tiny Light",
+    "workbench.colorTheme": "Quiet Light",
     "workbench.iconTheme": "vscode-icons",
     
     "files.autoSave": "afterDelay",
@@ -14,7 +14,7 @@
     
     "files.defaultLanguage": "cpp", // ctrl+N新建文件后默认的语言
     "editor.suggest.snippetsPreventQuickSuggestions": true, // clangd的snippets有很多的跳转点，不用这个就必须手动触发Intellisense了
-    "editor.acceptSuggestionOnEnter": "off", // 我个人的习惯，按回车时一定是真正的换行，只有tab才会接受Intellisense
+    "editor.acceptSuggestionOnEnter": "on", // 我个人的习惯，按回车时一定是真正的换行，只有tab才会接受Intellisense
     
     "editor.cursorSmoothCaretAnimation": true, // 移动光标时变得平滑
     "editor.smoothScrolling": true, // 滚动平滑，不过效果很微弱
@@ -28,7 +28,7 @@
     "code-runner.executorMap": {
         "c": "cd $dir && gcc '$fileName' -o '$fileNameWithoutExt.exe' -Wall -g -O2 -static-libgcc -std=c11 -fexec-charset=GBK && &'$dir$fileNameWithoutExt'",
         "cpp": "cd $dir && g++ '$fileName' -o '$fileNameWithoutExt.exe' -Wall -g -O2 -static-libgcc -std=c++17 -fexec-charset=GBK && &'$dir$fileNameWithoutExt'",
-        "python": "set PYTHONIOENCODING=utf8 && C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python37_64\\python.exe\\"
+        "python": "set PYTHONIOENCODING=utf8 && C:\\Users\\Administrator.DESKTOP-N61UK1Q\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe"
     },
     "code-runner.runInTerminal": true,
     "code-runner.saveFileBeforeRun": true, // run code前保存
@@ -43,15 +43,11 @@
     "C_Cpp.clang_format_sortIncludes": true, // 格式化时调整include的顺序（按字母排序）
     "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google, IndentWidth: 4,BreakBeforeBraces: Attach,AccessModifierOffset: -4,AllowShortIfStatementsOnASingleLine: true}",
     "editor.suggestSelection": "first",
-    "debug.onTaskErrors": "abort",
-
-    "window.menuBarVisibility": "hidden",
-    "window.titleBarStyle": "native",
-    "workbench.preferredLightColorTheme": "Tiny Light",
-    "workbench.colorCustomizations": {
-        "terminal.foreground": "#4bda28",
-        "terminal.background": "#86939b"
-    },
+    "debug.onTaskErrors": "abort",   
 
     "vsicons.dontShowNewVersionMessage": true,
+    "java.semanticHighlighting.enabled": true,
+    "python.languageServer": "Microsoft",
+    "kite.showWelcomeNotificationOnStartup": false,
+    "clang.diagnostic.enable": false,
 }
