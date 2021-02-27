@@ -24,6 +24,8 @@
     格式类: Guides,indent-rainbow,
 
     (一个特别慢的补全,下面的各个类都有推荐的,当然C好像可以不用,自带了): Visual Studio IntelliCode
+    
+    相比之下, Kite的补全非常nice
 
   - C/C++
 
@@ -42,8 +44,6 @@
     Include Autocomplete
 
   - Python
-
-    Kite
 
     MagicPython
 
